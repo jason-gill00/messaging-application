@@ -1,0 +1,33 @@
+.lobby {
+  position: relative;
+  width: 300px;
+  height: 97%;
+  display: block;
+  border-right: 1px solid #cdcdcd;
+
+  &__info {
+    padding: 25px;
+    width: 300px;
+    border-bottom: 1px solid #cdcdcd;
+  }
+
+  &__img {
+    img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  &__participant {
+    &:hover {
+      cursor: pointer;
+      width: 100%;
+      height: 50px;
+      background-color: #e2ebfc;
+    }
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
