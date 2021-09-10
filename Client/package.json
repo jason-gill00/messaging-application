@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-    "proxy": "http://localhost:1337",
+  "proxy": "http://localhost:1337",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -11,7 +11,7 @@
     "immer": "^9.0.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "socket.io-client": "^4.1.2",
     "web-vitals": "^1.1.2"
   },

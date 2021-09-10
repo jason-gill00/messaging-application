@@ -20,6 +20,8 @@ const initialMessageState = {
 
 function App() {
 
+  const [test, setTest] = useState("Hey john")
+
   const [username, setUsername] = useState("")
   const [connected, setConnected] = useState(false)
   const [allUsers, setAllUsers] = useState([])
@@ -103,6 +105,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Hey whats up {test}</h1>
       {body}
     </div>
   );
