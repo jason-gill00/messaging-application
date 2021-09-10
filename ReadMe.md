@@ -13,3 +13,8 @@ Messaging application (Frontend & Backend) enabling users to send messages to on
 - [x] Enable users to log in
 - [x] Allow users to join different lobbies
 - [x] Uppon joining a lobby, users will be able to send messages to anyone in that particular lobby
+
+
+## Demo
+
+![comic-app-gif](https://github.com/jason-gill00/messaging-application/blob/main/message-app-gif.gif)
